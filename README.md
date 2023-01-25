@@ -8,7 +8,7 @@ The dataset includes varibales such as employee ID, first and last names, birth 
 By extracting data from multiple sources, it can sometimes be difficult to picture.. which is why we have created an 'Entity Relationship Diagram' (ERD) before we dive deeper into the data and determine the structure of the data. This ERD can be seen below:
 ---
 <img width="453" alt="ERDiagram" src="https://user-images.githubusercontent.com/119131202/214702749-3107fe0f-f203-45bd-aa32-61f2e45fafa9.png">
-## Count of Retiring Employees by Title
+Count of Retiring Employees by Title
 ---
 We must first manipulate the original tables in order to breakdown the number of retiring employees by title. We must first create a table that outlines a table that consists of individuals who were born between 1952 and 1955, ordered by their employee number. This first table can be seen below:
 
@@ -21,5 +21,10 @@ Once this table was populated, we must use this information to create another ta
 Lastly, we now have the correct dataset to work with to determine the number of retring employees by job title. The data suggests that there are 25,916 Senior Engineers, 24,926 Senior Staff, 9,285 Engineers, 7,636 Staff, 3,603 Technique Leaders, 1,090 Assistant Engineers, and 2 Manangers retiring. The final table can be seen below.
 
 ![3](https://user-images.githubusercontent.com/119131202/214705863-ff82f2d1-4b15-4a62-8c14-28910ea5d814.png)
+---
+Eligible Employees for Mentorship Program
+---
+Next, we will retrieve the the correct dataset by joining tables, filtering data, and sorting the values. After the construction of the dataset, we were able to determine which employees were eligible for the mentorship program. You'll notice that the data is mostly grabbing the senior staff since they clearly have the most experieince.
+![5](https://user-images.githubusercontent.com/119131202/214707354-fbf13287-eb2d-4748-a544-47a64ab2872b.PNG)
 
 ## Summary
