@@ -8,18 +8,18 @@ The dataset includes varibales such as employee ID, first and last names, birth 
 By extracting data from multiple sources, it can sometimes be difficult to picture.. which is why we have created an 'Entity Relationship Diagram' (ERD) before we dive deeper into the data and determine the structure of the data. This ERD can be seen below:
 ---
 <img width="453" alt="ERDiagram" src="https://user-images.githubusercontent.com/119131202/214702749-3107fe0f-f203-45bd-aa32-61f2e45fafa9.png">
+## Count of Retiring Employees by Title
 ---
-### Count of Retiring Employees by Title
 We must first manipulate the original tables in order to breakdown the number of retiring employees by title. We must first create a table that outlines a table that consists of individuals who were born between 1952 and 1955, ordered by their employee number. This first table can be seen below:
----
-![image](https://user-images.githubusercontent.com/119131202/214704169-097908a7-4132-426d-aa2a-b682cc818cc1.png)
----
+
+![1](https://user-images.githubusercontent.com/119131202/214705806-b763f73c-8f8c-4387-a98a-ffeb4e3c59e7.png)
+
 Once this table was populated, we must use this information to create another table that excludes the employees that have already left the company by filtering on hire dates. This new datset will now be condensed into the table below:
----
-![image](https://user-images.githubusercontent.com/119131202/214704594-6b512fbf-b33c-46fc-91c7-08ebcdd6349e.png)
----
+
+![2](https://user-images.githubusercontent.com/119131202/214705841-a958df05-5da6-479e-b36a-bce559d8c22c.png)
+
 Lastly, we now have the correct dataset to work with to determine the number of retring employees by job title. The data suggests that there are 25,916 Senior Engineers, 24,926 Senior Staff, 9,285 Engineers, 7,636 Staff, 3,603 Technique Leaders, 1,090 Assistant Engineers, and 2 Manangers retiring. The final table can be seen below.
----
-![image](https://user-images.githubusercontent.com/119131202/214705159-1622ec7f-9214-4d3b-a856-e9ef25a894c4.png)
----
-##Summary
+
+![3](https://user-images.githubusercontent.com/119131202/214705863-ff82f2d1-4b15-4a62-8c14-28910ea5d814.png)
+
+## Summary
