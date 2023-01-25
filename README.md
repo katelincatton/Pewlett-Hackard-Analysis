@@ -8,6 +8,7 @@ The dataset includes varibales such as employee ID, first and last names, birth 
 By extracting data from multiple sources, it can sometimes be difficult to picture.. which is why we have created an 'Entity Relationship Diagram' (ERD) before we dive deeper into the data and determine the structure of the data. This ERD can be seen below:
 ---
 <img width="453" alt="ERDiagram" src="https://user-images.githubusercontent.com/119131202/214702749-3107fe0f-f203-45bd-aa32-61f2e45fafa9.png">
+---
 Count of Retiring Employees by Title
 ---
 We must first manipulate the original tables in order to breakdown the number of retiring employees by title. We must first create a table that outlines a table that consists of individuals who were born between 1952 and 1955, ordered by their employee number. This first table can be seen below:
