@@ -30,3 +30,6 @@ Next, we will retrieve the the correct dataset by joining tables, filtering data
 
 ## Summary
 The data suggests that there will be many employees retiring, thus, there will need to be a lot of new staff hired to fill those positions. There is nearly 70% of senior employees retiring, which suggests that many of the current employees will receive a promotion in order to fill those senior positions. To conclude, some retirees may choose to not accept the mentorship opportunity, which could result in some issues. By examining the data, the company will need to fill the senior positions with the most apporiate current employees, and begin the hirng process for many engineers, technique leaders, and assistant engineers. This would help fill the gaps and allow the business to continue running smoothly.
+---
+Analysis Performed by Katelin Catton
+1/26/2023
